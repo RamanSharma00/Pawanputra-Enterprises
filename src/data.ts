@@ -1,5 +1,5 @@
 import { Project, GalleryItem, TeamMember, ServiceItem, MachineryItem } from './types';
-import balajiTemple from "./assets/Gallery/balaji-temle.jpg.jpeg";
+import balajiTemple from "./assets/Gallery/balaji-temple.jpg.jpeg";
 import batchingPlant from "./assets/Gallery/batching-plant.jpg.jpeg";
 import boundaryWall from "./assets/Gallery/boundary-wall.jpg.jpeg";
 import closeVilla from "./assets/Gallery/close-villa.jpg.jpeg";
@@ -684,7 +684,7 @@ export const galleryItems: GalleryItem[] = [
     row: 1,
     title: "Project Boundary & Compliance Wall",
     category: "Civil Construction",
-    image: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=80",
+    image: boundaryWall,
     description: "Our secure boundary wall setup complete with razor-sharp barbed wire fencing and prominent visual compliance boards detailing safety policies, labor acts, and site rules."
   },
   {
@@ -692,7 +692,7 @@ export const galleryItems: GalleryItem[] = [
     row: 1,
     title: "Premium Residential Duplex Villas",
     category: "Residential Dev",
-    image: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=80",
+    image: duplexVillas,
     description: "A gorgeous street-level view of our newly constructed two-story residential duplex houses, designed with eye-catching modern cream, red, and dark grey structural facades."
   },
   {
@@ -700,7 +700,7 @@ export const galleryItems: GalleryItem[] = [
     row: 1,
     title: "Integrated Township Land Plotting",
     category: "Site Planning",
-    image: "https://images.unsplash.com/photo-1473968512647-3e447244af8f?auto=format&fit=crop&w=1200&q=80",
+    image: townshipAerial,
     description: "High-altitude drone capture showing the professional site leveling, demarcated housing plots divided with high-contrast limestone boundary markings, and internal road networks."
   },
   // Row 2: Infrastructure & Plants
@@ -709,7 +709,7 @@ export const galleryItems: GalleryItem[] = [
     row: 2,
     title: "Shree Panchamukhi Balaji Temple",
     category: "Civil Infrastructure",
-    image: "https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=1200&q=80",
+    image: balajiTemple,
     description: "A beautifully painted red Hindu temple dedicated to Shree Panchamukhi Balaji, built onsite to provide a peaceful spiritual center for residents and project staff."
   },
   {
