@@ -717,7 +717,7 @@ export const galleryItems: GalleryItem[] = [
     row: 2,
     title: "Civic Water Reservoir Tank",
     category: "Water Supply",
-    image: "https://images.unsplash.com/photo-1590069261209-f8e9b8642343?auto=format&fit=crop&w=1200&q=80",
+    image: waterReservoir,
     description: "A massive concrete reservoir project featuring slanted concrete retaining walls and fresh water, designed to serve as the main water source for the entire local township."
   },
   {
@@ -725,7 +725,7 @@ export const galleryItems: GalleryItem[] = [
     row: 2,
     title: "Heavy Batching Plant & Silo",
     category: "Heavy Assets",
-    image: "https://images.unsplash.com/photo-1513828583848-6b2a09cb423b?auto=format&fit=crop&w=1200&q=80",
+    image: batchingPlant,
     description: "Our advanced computerized industrial concrete batching plant, featuring a giant yellow and blue striped tower silo for efficient on-site concrete mixing and storage."
   }
 ];
