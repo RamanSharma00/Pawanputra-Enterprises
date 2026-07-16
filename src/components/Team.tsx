@@ -42,15 +42,13 @@ export default function Team() {
   key={index}
   className="bg-primary-50 rounded-sm border border-primary-200 overflow-hidden shadow-xs hover:shadow-md hover:border-amber-500/30 transition-all duration-300 flex flex-col"
 >
-  <div className="h-80 bg-primary-100 flex items-center justify-center overflow-hidden">
+  <div className="h-[450px] bg-primary-100 flex items-center justify-center overflow-hidden">
   <img
     src={member.imageUrl}
     alt={member.name}
-    className="max-w-full max-h-full object-contain"
+   className="w-full h-full object-contain"
   />
 </div>
-
-  <div className="p-8 flex-1 flex flex-col justify-between">
 
               <div className="p-8 flex-1 flex flex-col justify-between">
                 <div>
