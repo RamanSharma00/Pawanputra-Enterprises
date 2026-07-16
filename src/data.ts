@@ -11,6 +11,9 @@ import townshipAerial from "./assets/Gallery/township-aerial.jpg.jpeg";
 import township from "./assets/Gallery/township.jpg.jpeg";
 import waterReservoir from "./assets/Gallery/water-reservoir.jpg.jpeg";
 
+import shambhuPipla from "./assets/Gallery/shambhu-pipla.jpg.jpeg";
+import nutanSharma from "./assets/Gallery/nutan-sharma.jpg.jpeg";
+import anilSharma from "./assets/Gallery/anil-sharma.jpg.jpeg";
 const svgToDataUrl = (svgStr: string) => `data:image/svg+xml;utf8,${encodeURIComponent(svgStr)}`;
 
 const shambhuSvg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="100%" height="100%">
@@ -207,21 +210,21 @@ export const teamMembers: TeamMember[] = [
     role: "Founder & Owner",
     description: "Visionary entrepreneur with extensive experience in civil construction, infrastructure development, and large-scale project execution across Rajasthan.",
     avatarType: "pagadi",
-    imageUrl: svgToDataUrl(shambhuSvg)
+    imageUrl: shambhuPipla
   },
   {
     name: "NUTAN SHARMA",
     role: "Director & Owner",
     description: "Responsible for strategic business planning, corporate governance, financial management, operations planning, and corporate growth initiatives.",
     avatarType: "suit",
-    imageUrl: svgToDataUrl(nutanSvg)
+   imageUrl: nutanSharma
   },
   {
     name: "ANIL SHARMA",
     role: "Chief Executive Officer",
     description: "Leading daily business operations, project oversight, client relations, resource optimization, and company development.",
     avatarType: "white_shirt",
-    imageUrl: svgToDataUrl(anilSvg)
+    imageUrl: anilSharma
   }
 ];
 
