@@ -13,6 +13,7 @@ import UserDashboard from './components/UserDashboard';
 import ClientDashboard from './components/ClientDashboard';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+import WhatsAppButton from './components/WhatsAppButton';
 
 import { 
   Compass, Phone, FileText, ChevronUp, Bell, MessageSquare, 
@@ -115,6 +116,7 @@ export default function App() {
             <WhyChooseUs />
             <Clients />
             <Contact />
+            <WhatsAppButton />
           </div>
         ) : (
           /* PORTAL VIEWPORT (Customer or Admin) */
