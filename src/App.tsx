@@ -14,6 +14,7 @@ import ClientDashboard from './components/ClientDashboard';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import WhatsAppButton from './components/WhatsAppButton';
+import CallButton from './components/CallButton';
 
 import { 
   Compass, Phone, FileText, ChevronUp, Bell, MessageSquare, 
@@ -116,7 +117,6 @@ export default function App() {
             <WhyChooseUs />
             <Clients />
             <Contact />
-            <WhatsAppButton />
           </div>
         ) : (
           /* PORTAL VIEWPORT (Customer or Admin) */
@@ -156,8 +156,10 @@ export default function App() {
         )}
       </main>
 
-      {/* Corporate Footnote */}
-      <Footer />
+     {/* Corporate Footnote */}
+<CallButton />
+<WhatsAppButton />
+<Footer />
 
       {/* FLOATING ACTION UTILITIES */}
       <div className="fixed bottom-6 right-6 z-40 flex flex-col space-y-3 items-end">
