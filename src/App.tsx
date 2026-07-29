@@ -14,7 +14,7 @@ import ClientDashboard from './components/ClientDashboard';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import WhatsAppButton from './components/WhatsAppButton';
-import CallButton from './components/CallButton';
+
 
 import { 
   Compass, Phone, FileText, ChevronUp, Bell, MessageSquare, 
@@ -157,10 +157,8 @@ export default function App() {
       </main>
 
      {/* Corporate Footnote */}
-<CallButton />
 <WhatsAppButton />
 <Footer />
-
       {/* FLOATING ACTION UTILITIES */}
       <div className="fixed bottom-6 right-6 z-40 flex flex-col space-y-3 items-end">
         
@@ -201,14 +199,7 @@ export default function App() {
             </button>
           )}
 
-          {/* Quick Helpline Hotline shortcut */}
-          <a
-            href="tel:+918946955587"
-            className="bg-amber-500 hover:bg-amber-600 text-primary-950 p-3 rounded-sm shadow-lg transition-all hover:scale-105 active:scale-95 flex items-center justify-center border border-amber-400"
-            title="Call Office Hotline"
-          >
-            <Phone className="w-5 h-5" />
-          </a>
+         
         </div>
 
       </div>
