@@ -17,8 +17,8 @@ import WhatsAppButton from './components/WhatsAppButton';
 
 
 import { 
-  Compass, Phone, FileText, ChevronUp, Bell, MessageSquare, 
-  X, Check, Terminal, ShieldAlert 
+  Compass, Phone, FileText, ChevronUp, MessageSquare, 
+  Check, Terminal, ShieldAlert 
 } from 'lucide-react';
 
 export default function App() {
@@ -163,29 +163,7 @@ export default function App() {
       <div className="fixed bottom-6 right-6 z-40 flex flex-col space-y-3 items-end">
         
         
-        {activeNotification && (
-          <div className="bg-primary-900 border border-primary-700 text-white rounded-sm border-l-4 border-l-amber-500 shadow-xl p-4 max-w-sm flex items-start space-x-3.5 backdrop-blur-md animate-slideIn select-none">
-            <div className="bg-amber-500/10 p-2 rounded-sm text-amber-500 mt-0.5 shrink-0 border border-amber-500/20">
-              <Bell className="w-4 h-4 animate-bounce" />
-            </div>
-            
-            <div className="flex-1">
-              <s{/* Dynamic floating live desk notification popup */}pan className="text-[9px] font-mono text-amber-400 font-bold uppercase tracking-widest block mb-0.5">
-                PP Operations Desk
-              </span>
-              <p className="text-xs text-primary-100 leading-normal font-medium">
-                {activeNotification}
-              </p>
-            </div>
-
-            <button 
-              onClick={() => setActiveNotification(null)}
-              className="text-primary-400 hover:text-white transition-colors p-1"
-            >
-              <X className="w-3.5 h-3.5" />
-            </button>
-          </div>
-        )}
+      
 
         <div className="flex space-x-2">
           {/* Scroll To Top button */}
