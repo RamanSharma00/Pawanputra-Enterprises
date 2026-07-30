@@ -157,7 +157,7 @@ export default function App() {
       </main>
 
      {/* Corporate Footnote */}
-<WhatsAppButton />
+
 <Footer />
       {/* FLOATING ACTION UTILITIES */}
       <div className="fixed bottom-6 right-6 z-40 flex flex-col space-y-3 items-end">
