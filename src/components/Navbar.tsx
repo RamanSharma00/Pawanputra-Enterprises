@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Menu, X, Landmark, Compass, Key, User, FileText, ChevronRight } from 'lucide-react';
-
+import { Menu, X, Landmark, Key, User, ChevronRight, MessageCircle } from 'lucide-react';
 interface NavbarProps {
   activeTab: string;
   setActiveTab: (tab: string) => void;
@@ -132,30 +131,35 @@ export default function Navbar({
 
           {/* Desktop CTA Action */}
           <div className="hidden lg:flex items-center space-x-3">
-            <button
-              onClick={openQuotationModal}
-              className="bg-amber-500 hover:bg-amber-400 text-primary-950 px-4.5 py-2 rounded-sm text-xs font-bold uppercase tracking-wider transition-all flex items-center space-x-1.5"
-            >
-              <FileText className="w-3.5 h-3.5" />
-              <span>Get Quotation</span>
-            </button>
+            <a
+  href="https://wa.me/918946955587"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="bg-[#25D366] hover:bg-[#20ba5a] text-white p-3 rounded-full flex items-center justify-center"
+  title="WhatsApp"
+>
+  <MessageCircle size={22} />
+</a>
           </div>
 
-          {/* Mobile Menu Toggle Button */}
-          <div className="flex items-center space-x-2 lg:hidden">
-            <button
-              onClick={openQuotationModal}
-              className="bg-amber-500 text-primary-950 px-3 py-1.5 rounded-sm text-xs font-bold uppercase"
-            >
-              Quote
-            </button>
-            <button
-              onClick={() => setIsOpen(!isOpen)}
-              className="p-2 rounded-sm text-primary-200 hover:text-amber-400 hover:bg-primary-850/40 focus:outline-none"
-            >
-              {isOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
-            </button>
-          </div>
+         {/* Mobile Menu Toggle Button */}
+<div className="flex items-center space-x-2 lg:hidden">
+  <a
+    href="https://wa.me/918946955587"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="bg-[#25D366] text-white px-3 py-1.5 rounded-sm text-xs font-bold uppercase"
+  >
+    WhatsApp
+  </a>
+
+  <button
+    onClick={() => setIsOpen(!isOpen)}
+    className="p-2 rounded-sm text-primary-200 hover:text-amber-400 hover:bg-primary-850/40 focus:outline-none"
+  >
+    {isOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
+  </button>
+</div>
         </div>
       </div>
 
