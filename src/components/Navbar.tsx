@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import { Menu, X, Landmark, Compass, Key, User, FileText, ChevronRight, MessageCircle } from 'lucide-react';
+import { Menu, X, Landmark, Compass, Key, User, FileText, ChevronRight } from 'lucide-react';
+import { FaWhatsapp } from "react-icons/fa";
 interface NavbarProps {
   activeTab: string;
   setActiveTab: (tab: string) => void;
@@ -131,14 +132,14 @@ export default function Navbar({
 
           {/* Desktop CTA Action */}
           <div className="hidden lg:flex items-center space-x-3">
-           <a
+         <a
   href="https://wa.me/918946955587"
   target="_blank"
   rel="noopener noreferrer"
-  className="bg-[#25D366] hover:bg-[#20ba5a] text-white w-12 h-12 rounded-full flex items-center justify-center shadow-lg"
+  className="bg-[#25D366] hover:bg-[#20ba5a] text-white w-14 h-14 rounded-full flex items-center justify-center shadow-lg"
   title="Chat on WhatsApp"
 >
-  <MessageCircle className="w-6 h-6" />
+  <FaWhatsapp size={30} />
 </a>
           </div>
 

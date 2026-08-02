@@ -33,7 +33,11 @@ export default function Clients() {
             >
               {/* Simulated industrial logo */}
               <div className="bg-primary-900 text-white font-display font-extrabold text-base tracking-wider py-4 rounded-sm shadow-xs group-hover:bg-amber-500 group-hover:text-primary-950 transition-colors uppercase">
-                {client.logoText}
+               <img 
+  src={client.logo}
+  alt={client.name}
+  className="max-h-16 max-w-full object-contain"
+/>
               </div>
 
               <div className="mt-4">
