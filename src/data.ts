@@ -755,17 +755,59 @@ export const whyChooseUs = [
   { title: "Client Satisfaction", desc: "Long-term relations built on transparency, safety, and excellence." }
 ];
 
+import hindustanLogo from "./assets/logos/Hindustan Jinc Limited-logo.png";
+import ltLogo from "./assets/logos/larsen-and-toubro-logo.png";
+import siemensLogo from "./assets/logos/siemens-logo.png";
+import bharatLogo from "./assets/logos/bharat-construction-logo (2).png";
+import reliantLogo from "./assets/logos/reliant-engineering-logo.png";
+import skKhetanLogo from "./assets/logos/S.K. Khetan-logo.png";
+import srInfraLogo from "./assets/logos/sr-industries-logo.png";
+import monomarkLogo from "./assets/logos/monomark-engineering-logo.png";
+import dayalLogo from "./assets/logos/dayal-engineering-logo (2).png";
 export const clients = [
-  { name: "Hindustan Zinc Ltd.", logoText: "HZL", desc: "Vedanta Group Company" },
-  { name: "Larsen & Toubro", logoText: "L&T", desc: "Engineering & Construction Multinational" },
-  { name: "Siemens", logoText: "SIEMENS", desc: "Industrial Electrification Systems" },
-  { name: "Bharat Construction Company", logoText: "BCC", desc: "Highway and Structural Development" },
-  { name: "Reliant Drilling Pvt Ltd", logoText: "RD", desc: "Geological Exploration and Mining" },
-  { name: "SK Khetan Infraprojects", logoText: "SKK", desc: "Mining and Cement Civil Infrastructure" },
-  { name: "Sanwariya Multiventures", logoText: "SML", desc: "Residential and Commercial Infrastructure" },
-  { name: "SR Infra Projects", logoText: "SR", desc: "State and Civil Infrastructure Develop" },
-  { name: "Aces Infradev Pvt Ltd", logoText: "ACES", desc: "Roads and Infrastructure Testing" },
-  { name: "Monomark Engineering", logoText: "MME", desc: "Steel Structures and Mechanical Rigging" },
-  { name: "MBE Pvt Ltd", logoText: "MBE", desc: "Bulk Material Electrification & Systems" },
-  { name: "Dayal Engineering Ltd", logoText: "DEL", desc: "Industrial Illumination & Smart Wiring" }
+  { 
+    name: "Hindustan Zinc Ltd.", 
+    logo: hindustanLogo, 
+    desc: "Vedanta Group Company" 
+  },
+  { 
+    name: "Larsen & Toubro", 
+    logo: ltLogo, 
+    desc: "Engineering & Construction Multinational" 
+  },
+  { 
+    name: "Siemens", 
+    logo: siemensLogo, 
+    desc: "Industrial Electrification Systems" 
+  },
+  { 
+    name: "Bharat Construction Company", 
+    logo: bharatLogo, 
+    desc: "Highway and Structural Development" 
+  },
+  { 
+    name: "Reliant Drilling Pvt Ltd", 
+    logo: reliantLogo, 
+    desc: "Geological Exploration and Mining" 
+  },
+  { 
+    name: "SK Khetan Infraprojects", 
+    logo: skKhetanLogo, 
+    desc: "Mining and Cement Civil Infrastructure" 
+  },
+  { 
+    name: "SR Infra Projects", 
+    logo: srInfraLogo, 
+    desc: "State and Civil Infrastructure Development" 
+  },
+  { 
+    name: "Monomark Engineering", 
+    logo: monomarkLogo, 
+    desc: "Steel Structures and Mechanical Rigging" 
+  },
+  { 
+    name: "Dayal Engineering Ltd", 
+    logo: dayalLogo, 
+    desc: "Industrial Illumination & Smart Wiring" 
+  }
 ];
